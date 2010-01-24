@@ -2,6 +2,12 @@ use Module::Build;
 
 my($builder) = Module::Build -> new
 (
+	meta_merge => {
+		resources => {
+			repository => 'http://github.com/ronsavage/html--parser--simple',
+		},
+	},
+
 	module_name    => 'HTML::Parser::Simple',
 	license        => 'artistic',
 	dist_abstract  => 'Parse nice HTML files without needing a compiler',
