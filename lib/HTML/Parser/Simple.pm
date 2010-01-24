@@ -6,10 +6,9 @@ package HTML::Parser::Simple;
 # Note:
 #	\t = 4 spaces || die.
 
+use 5.006;
 use strict;
 use warnings;
-
-require 5.005_62;
 
 require Exporter;
 

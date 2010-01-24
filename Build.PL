@@ -21,6 +21,7 @@ my($builder) = Module::Build -> new
 	{
 		Carp         => 0,
 		Tree::Simple => 0,
+		perl         => 5.006,
 	},
 );
 
